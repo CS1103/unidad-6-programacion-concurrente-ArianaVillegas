@@ -1,0 +1,3 @@
+/home/ariana/UTEC/POO 2/PROYECTO/unidad-6-programacion-concurrente-ArianaVillegas/Programacion_concurrente/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ariana/UTEC/POO 2/PROYECTO/unidad-6-programacion-concurrente-ArianaVillegas/Programacion_concurrente/cmake-build-debug/CMakeFiles/Programacion_concurrente.dir
+/home/ariana/UTEC/POO 2/PROYECTO/unidad-6-programacion-concurrente-ArianaVillegas/Programacion_concurrente/cmake-build-debug/CMakeFiles/edit_cache.dir
