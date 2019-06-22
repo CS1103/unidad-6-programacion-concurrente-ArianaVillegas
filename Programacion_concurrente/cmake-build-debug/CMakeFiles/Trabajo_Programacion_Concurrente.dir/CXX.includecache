@@ -1,0 +1,66 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/e/Universidad/Ciclo 3/POO II/Trabajo_Programacion_Concurrente/MatrizArray.h
+iostream
+-
+vector
+-
+
+/cygdrive/e/Universidad/Ciclo 3/POO II/Trabajo_Programacion_Concurrente/MatrizConcurrenteArray.h
+iostream
+-
+vector
+-
+future
+-
+
+/cygdrive/e/Universidad/Ciclo 3/POO II/Trabajo_Programacion_Concurrente/MatrizConcurrenteVectores.h
+iostream
+-
+thread
+-
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+chrono
+-
+ctime
+-
+vector
+-
+
+/cygdrive/e/Universidad/Ciclo 3/POO II/Trabajo_Programacion_Concurrente/MatrizVectores.h
+vector
+-
+iostream
+-
+random
+-
+
+/cygdrive/e/Universidad/Ciclo 3/POO II/Trabajo_Programacion_Concurrente/main.cpp
+iostream
+-
+thread
+-
+assert.h
+-
+sys/time.h
+-
+MatrizArray.h
+/cygdrive/e/Universidad/Ciclo 3/POO II/Trabajo_Programacion_Concurrente/MatrizArray.h
+MatrizConcurrenteArray.h
+/cygdrive/e/Universidad/Ciclo 3/POO II/Trabajo_Programacion_Concurrente/MatrizConcurrenteArray.h
+MatrizVectores.h
+/cygdrive/e/Universidad/Ciclo 3/POO II/Trabajo_Programacion_Concurrente/MatrizVectores.h
+MatrizConcurrenteVectores.h
+/cygdrive/e/Universidad/Ciclo 3/POO II/Trabajo_Programacion_Concurrente/MatrizConcurrenteVectores.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Trabajo_Programacion_Concurrente.dir/main.cpp.o CMakeFiles/Trabajo_Programacion_Concurrente.dir/MatrizVectores.cpp.o  -o Trabajo_Programacion_Concurrente.exe -Wl,--out-implib,libTrabajo_Programacion_Concurrente.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

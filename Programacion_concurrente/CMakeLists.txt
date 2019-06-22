@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
-project(Programacion_concurrente)
+project(Trabajo_Programacion_Concurrente)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Programacion_concurrente main.cpp Matriz.cpp Matriz.h)
+add_executable(Trabajo_Programacion_Concurrente main.cpp MatrizArray.h MatrizConcurrenteArray.h MatrizVectores.h MatrizVectores.cpp MatrizConcurrenteVectores.h)

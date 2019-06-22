@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/73/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /cygdrive/c/Users/USUARIO/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /snap/clion/73/bin/cmake/linux/bin/cmake -E remove -f
+RM = /cygdrive/c/Users/USUARIO/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/ariana/UTEC/POO 2/PROYECTO/unidad-6-programacion-concurrente-ArianaVillegas/Programacion_concurrente"
+CMAKE_SOURCE_DIR = "/cygdrive/e/Universidad/Ciclo 3/POO II/Trabajo_Programacion_Concurrente"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/ariana/UTEC/POO 2/PROYECTO/unidad-6-programacion-concurrente-ArianaVillegas/Programacion_concurrente/cmake-build-debug"
+CMAKE_BINARY_DIR = "/cygdrive/e/Universidad/Ciclo 3/POO II/Trabajo_Programacion_Concurrente/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = "/home/ariana/UTEC/POO 2/PROYECTO/unidad-6-programacion-concu
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/73/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/cygdrive/c/Users/USUARIO/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/73/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/cygdrive/c/Users/USUARIO/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ariana/UTEC/POO 2/PROYECTO/unidad-6-programacion-concurrente-ArianaVillegas/Programacion_concurrente/cmake-build-debug/CMakeFiles" "/home/ariana/UTEC/POO 2/PROYECTO/unidad-6-programacion-concurrente-ArianaVillegas/Programacion_concurrente/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/e/Universidad/Ciclo 3/POO II/Trabajo_Programacion_Concurrente/cmake-build-debug/CMakeFiles" "/cygdrive/e/Universidad/Ciclo 3/POO II/Trabajo_Programacion_Concurrente/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ariana/UTEC/POO 2/PROYECTO/unidad-6-programacion-concurrente-ArianaVillegas/Programacion_concurrente/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/e/Universidad/Ciclo 3/POO II/Trabajo_Programacion_Concurrente/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Programacion_concurrente
+# Target rules for targets named Trabajo_Programacion_Concurrente
 
 # Build rule for target.
-Programacion_concurrente: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Programacion_concurrente
-.PHONY : Programacion_concurrente
+Trabajo_Programacion_Concurrente: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Trabajo_Programacion_Concurrente
+.PHONY : Trabajo_Programacion_Concurrente
 
 # fast build rule for target.
-Programacion_concurrente/fast:
-	$(MAKE) -f CMakeFiles/Programacion_concurrente.dir/build.make CMakeFiles/Programacion_concurrente.dir/build
-.PHONY : Programacion_concurrente/fast
+Trabajo_Programacion_Concurrente/fast:
+	$(MAKE) -f CMakeFiles/Trabajo_Programacion_Concurrente.dir/build.make CMakeFiles/Trabajo_Programacion_Concurrente.dir/build
+.PHONY : Trabajo_Programacion_Concurrente/fast
 
-Matriz.o: Matriz.cpp.o
+MatrizVectores.o: MatrizVectores.cpp.o
 
-.PHONY : Matriz.o
+.PHONY : MatrizVectores.o
 
 # target to build an object file
-Matriz.cpp.o:
-	$(MAKE) -f CMakeFiles/Programacion_concurrente.dir/build.make CMakeFiles/Programacion_concurrente.dir/Matriz.cpp.o
-.PHONY : Matriz.cpp.o
+MatrizVectores.cpp.o:
+	$(MAKE) -f CMakeFiles/Trabajo_Programacion_Concurrente.dir/build.make CMakeFiles/Trabajo_Programacion_Concurrente.dir/MatrizVectores.cpp.o
+.PHONY : MatrizVectores.cpp.o
 
-Matriz.i: Matriz.cpp.i
+MatrizVectores.i: MatrizVectores.cpp.i
 
-.PHONY : Matriz.i
+.PHONY : MatrizVectores.i
 
 # target to preprocess a source file
-Matriz.cpp.i:
-	$(MAKE) -f CMakeFiles/Programacion_concurrente.dir/build.make CMakeFiles/Programacion_concurrente.dir/Matriz.cpp.i
-.PHONY : Matriz.cpp.i
+MatrizVectores.cpp.i:
+	$(MAKE) -f CMakeFiles/Trabajo_Programacion_Concurrente.dir/build.make CMakeFiles/Trabajo_Programacion_Concurrente.dir/MatrizVectores.cpp.i
+.PHONY : MatrizVectores.cpp.i
 
-Matriz.s: Matriz.cpp.s
+MatrizVectores.s: MatrizVectores.cpp.s
 
-.PHONY : Matriz.s
+.PHONY : MatrizVectores.s
 
 # target to generate assembly for a file
-Matriz.cpp.s:
-	$(MAKE) -f CMakeFiles/Programacion_concurrente.dir/build.make CMakeFiles/Programacion_concurrente.dir/Matriz.cpp.s
-.PHONY : Matriz.cpp.s
+MatrizVectores.cpp.s:
+	$(MAKE) -f CMakeFiles/Trabajo_Programacion_Concurrente.dir/build.make CMakeFiles/Trabajo_Programacion_Concurrente.dir/MatrizVectores.cpp.s
+.PHONY : MatrizVectores.cpp.s
 
 main.o: main.cpp.o
 
@@ -156,7 +156,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Programacion_concurrente.dir/build.make CMakeFiles/Programacion_concurrente.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/Trabajo_Programacion_Concurrente.dir/build.make CMakeFiles/Trabajo_Programacion_Concurrente.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -165,7 +165,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Programacion_concurrente.dir/build.make CMakeFiles/Programacion_concurrente.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/Trabajo_Programacion_Concurrente.dir/build.make CMakeFiles/Trabajo_Programacion_Concurrente.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +174,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Programacion_concurrente.dir/build.make CMakeFiles/Programacion_concurrente.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/Trabajo_Programacion_Concurrente.dir/build.make CMakeFiles/Trabajo_Programacion_Concurrente.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -184,11 +184,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Programacion_concurrente"
+	@echo "... Trabajo_Programacion_Concurrente"
 	@echo "... edit_cache"
-	@echo "... Matriz.o"
-	@echo "... Matriz.i"
-	@echo "... Matriz.s"
+	@echo "... MatrizVectores.o"
+	@echo "... MatrizVectores.i"
+	@echo "... MatrizVectores.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
